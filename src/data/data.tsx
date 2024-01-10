@@ -1,17 +1,12 @@
-import portfolioImage from '../assets/portfolio-website.jpg?url';
-import pomodoroImage from '../assets/Pomodoro-app.jpg?url';
-import markdownImage from '../assets/In-browser-markdown-editor.jpg?url';
-import restCountriesAPIImage from '../assets/REST-Countries-API.jpg?url';
-import calculatorImage from '../assets/Calculator-App.jpg?url';
-import drumMachineImage from '../assets/Drum-machine.JPG?url';
-import spaceWebsiteImage from '../assets/Space-tourism-website.jpg?url';
-import quoteAppImage from '../assets/Random-quote-app.JPG?url';
-import loginPageImage from '../assets/Login-page.JPG?url';
-import airbnbCloneImage from '../assets/airbnb-clone.jpg';
-import airbnbClone2023 from '../assets/airbnb-clone-2023.jpg';
+import portfolioImage from '../assets/portfolio.png';
+import sneakear from '../assets/sneakear.png';
+import bot from '../assets/bot.png';
+import tedtech from '../assets/tedtech.png';
+import inventory2 from '../assets/inventory2.png';
+import inventory from '../assets/inventory.png';
 import { SiFrontendmentor } from 'react-icons/si';
-import { FaLinkedin, FaCodepen, FaGithub } from 'react-icons/fa';
-
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { SiLeetcode } from "react-icons/si";
 export default {
   name: 'Filimon',
   description:
@@ -50,111 +45,77 @@ export default {
   ],
   projects: [
     {
-      projectName: 'Airbnb-clone-2023',
+      projectName: 'W.I.M.S.',
       skills: [
         'tailwind',
         'typescript',
         'react',
-        'next.js',
-        'prisma',
-        'mongodb',
+        'vite',
+        'firebase',
       ],
-      image: airbnbClone2023,
-      projectLink: 'https://travel-app-2023.vercel.app/',
-      codeLink: 'https://github.com/Furxx2000/Airbnb-clone-2023',
+      image: inventory,
+      projectLink: 'https://wingateinventory.netlify.app',
+      codeLink: 'https://github.com/filimonkd/inventory-management-system',
     },
     {
-      projectName: 'Single page developer portfolio',
+      projectName: 'Filimon portfolio',
       skills: ['tailwind', 'typescript', 'react'],
       image: portfolioImage,
       projectLink:
-        'https://furxx2000.github.io/Single-page-developer-portfolio/',
-      codeLink: 'https://github.com/Furxx2000/Single-page-developer-portfolio',
+        'https://filimonportfolio.netlify.app',
+      codeLink: 'https://github.com/filimonkd/filimon-portfolio',
     },
     {
-      projectName: 'Pomodoro app',
-      skills: ['tailwind', 'typescript', 'react'],
-      image: pomodoroImage,
-      projectLink: 'https://furxx2000.github.io/Pomodoro-app/',
-      codeLink: 'https://github.com/Furxx2000/Pomodoro-app',
+      projectName: 'Sneakear',
+      skills: ['tailwind', 'typescript', 'Vue 3', 'Vuex'],
+      image: sneakear,
+      projectLink: 'https://thriving-cascaron-1823bb.netlify.app/',
+      codeLink: 'https://github.com/filimonkd/sneakers-e-commerce-telegram-bot-website',
     },
     {
       projectName: 'In browser markdown editor',
-      skills: ['scss', 'typescript', 'react'],
-      image: markdownImage,
-      projectLink: 'https://furxx2000.github.io/In-browser-markdown-editor/',
-      codeLink: 'https://github.com/Furxx2000/In-browser-markdown-editor',
+      skills: ['Chapa API', 'Telegram API', 'JS'],
+      image: bot,
+      projectLink: 'https://t.me/DengezGiftsBot',
+      codeLink: 'https://github.com/filimonkd/chapa-telegram-bot-payment',
     },
     {
-      projectName: 'REST Countries API',
-      skills: ['css', 'typescript', 'vue'],
-      image: restCountriesAPIImage,
-      projectLink: 'https://furxx2000.github.io/Rest-Country-API-App/',
-      codeLink: 'https://github.com/Furxx2000/Rest-Country-API-App',
+      projectName: 'tedtech website',
+      skills: ['css', 'vue'],
+      image: tedtech,
+      projectLink: 'https://tedtechengplc.netlify.app',
+      codeLink: 'https://tedtechengplc.netlify.app',
     },
     {
-      projectName: 'Calculator App',
-      skills: ['scss', 'typescript', 'vue'],
-      image: calculatorImage,
-      projectLink: 'https://furxx2000.github.io/Calculator-App/',
-      codeLink: 'https://github.com/Furxx2000/Calculator-App',
-    },
-    {
-      projectName: 'Drum machine',
-      skills: ['styled components', 'typescript', 'react'],
-      image: drumMachineImage,
-      projectLink: 'https://furxx2000.github.io/Drum-machine/',
-      codeLink: 'https://github.com/Furxx2000/Drum-machine',
-    },
-    {
-      projectName: 'Space tourism website',
-      skills: ['html', 'css', 'typescript'],
-      image: spaceWebsiteImage,
-      projectLink: 'https://furxx2000.github.io/Space-Tourism-Website/',
-      codeLink: 'https://github.com/Furxx2000/Space-Tourism-Website',
-    },
-    {
-      projectName: 'Random quote app',
-      skills: ['css', 'react', 'API'],
-      image: quoteAppImage,
-      projectLink: 'https://furxx2000.github.io/Random-quote-machine-FCC/',
-      codeLink: 'https://github.com/Furxx2000/Random-quote-machine-FCC',
-    },
-    {
-      projectName: 'Login page',
-      skills: ['scss', 'vue', 'vue router'],
-      image: loginPageImage,
-      projectLink: 'https://furxx2000.github.io/Login-page/',
-      codeLink: 'https://github.com/Furxx2000/Login-page',
-    },
-    {
-      projectName: 'Airbnb clone',
-      skills: ['html', 'scss', 'javascript'],
-      image: airbnbCloneImage,
-      projectLink: 'https://furxx2000.github.io/Airbnb-clone/',
-      codeLink: 'https://github.com/Furxx2000/Airbnb-clone',
+      projectName: 'W.I.M.S. Login',
+      skills: ['tailwind',
+      'typescript',
+      'react',],
+      image: inventory2,
+      projectLink: 'https://wingateinventory.netlify.app',
+      codeLink: 'https://github.com/filimonkd/inventory-management-system',
     },
   ],
   links: [
     {
       site: 'Github',
-      link: 'https://github.com/Furxx2000',
+      link: 'https://github.com/filimonkd',
       icon: <FaGithub className='md:w-6 md:h-6' size={20} />,
     },
     {
       site: 'Frontend mentor',
-      link: 'https://www.frontendmentor.io/profile/Furxx2000',
+      link: 'https://www.frontendmentor.io/profile/filimonkd',
       icon: <SiFrontendmentor className='md:w-6 md:h-6' size={20} />,
     },
     {
       site: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/%E5%85%89%E5%BB%B7-%E6%96%87-aa0ba1176/',
+      link: 'https://www.linkedin.com/in/filimonkd',
       icon: <FaLinkedin className='md:w-6 md:h-6' size={20} />,
     },
     {
-      site: 'Codepen',
-      link: 'https://codepen.io/furxx2000',
-      icon: <FaCodepen className='md:w-6 md:h-6' size={20} />,
+      site: 'Leetcode',
+      link: 'https://leetcode.com/filimonkd',
+      icon: <SiLeetcode className='md:w-6 md:h-6' size={20} />,
     },
   ],
 };
